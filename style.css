@@ -60,7 +60,6 @@ img{
     margin-left: auto;
     margin-right: auto;
     width: 20%;
-    border: solid 3px black;
 }
 
 
@@ -168,22 +167,37 @@ a:hover{
   background-image: none;
 }
 
-        /* Customização dos botôes do slider | TO DO */
+        /* Customização do slider | TO DO */
 
 .carousel-control-next-icon:after
 {
   content: '>';
   font-size: 55px;
-  color: darkgray
+  color: darkgray;
+  text-shadow: none;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 55px;
-  color: darkgray
+  color: darkgray;
+  text-shadow: none;
 }
 
+.custom-indicator{    
+    position: initial;
+    margin-top: 10px;    
+}
+
+.custom-caption{
+    position: initial;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+        /* FIM Customização */
 #legenda{
+    margin-top: 0;
+    margin-bottom: 0;
     text-align: center;
     color: white;
 }
